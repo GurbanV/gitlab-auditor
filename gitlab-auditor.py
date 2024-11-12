@@ -1,4 +1,5 @@
 import os
+import logging
 import gitlab
 import warnings
 import argparse
@@ -11,6 +12,12 @@ from rich.table import Table
 import json
 import fnmatch
 from dateutil import parser
+
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s %(levelname)-8s %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S')
 
 
 warnings.filterwarnings("ignore")
