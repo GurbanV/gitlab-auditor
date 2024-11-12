@@ -17,8 +17,8 @@ An audit tool for GitLab projects to check compliance with internal standards an
 Clone the repository and install the requirements:
 
 ```bash
-git clone https://github.com/yourusername/gitlab-project-auditor.git
-cd gitlab-project-auditor
+git clone https://github.com/GurbanV/gitlab-auditor.git
+cd gitlab-auditor
 pip install -r requirements.txt
 ```
 
