@@ -33,13 +33,13 @@ export GITLAB_URL=your_gitlab_url
 ## Run
 
 ```bash
-python audit.py
+python3 gitlab-auditor.py
 ```
 
 Also supports specifying arguments:
 
 ```bash
-python audit.py --output markdown --exclude large_files
+python3 gitlab-auditor.py --output markdown --exclude large_files
 ```
 
 ## Requirements
